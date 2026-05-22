@@ -1,0 +1,32 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 838ms
+
+ HEAD /login 200 in 595ms (next.js: 269ms, application-code: 326ms)
+ GET /login 200 in 128ms (next.js: 8ms, application-code: 120ms)
+ GET /dashboard 200 in 76ms (next.js: 26ms, application-code: 49ms)
+ GET /scan/db7e376e-ab3e-41a0-b139-f2cc3f72ecef 200 in 679ms (next.js: 635ms, application-code: 43ms)
+ GET /login 200 in 70ms (next.js: 4ms, application-code: 66ms)
+ GET /login 200 in 53ms (next.js: 3ms, application-code: 49ms)
+ GET /signup 200 in 110ms (next.js: 27ms, application-code: 83ms)
+ GET /signup 200 in 65ms (next.js: 5ms, application-code: 60ms)
+ GET /dashboard 200 in 35ms (next.js: 5ms, application-code: 30ms)
+ GET /signup 200 in 73ms (next.js: 4ms, application-code: 69ms)
+ GET /dashboard 200 in 29ms (next.js: 4ms, application-code: 26ms)
+ GET /scan/af6f533d-4275-48f3-af5f-1e0f9a7d9587 200 in 54ms (next.js: 20ms, application-code: 33ms)
+ GET /glossary 200 in 166ms (next.js: 33ms, application-code: 133ms)
+ GET /signup 200 in 59ms (next.js: 3ms, application-code: 56ms)
+ GET /dashboard 200 in 27ms (next.js: 4ms, application-code: 23ms)
+ GET /compare 200 in 937ms (next.js: 801ms, application-code: 136ms)
+ GET /signup 200 in 60ms (next.js: 4ms, application-code: 56ms)
+ GET /dashboard 200 in 46ms (next.js: 3ms, application-code: 43ms)
+ GET /scan/5bfd9ac2-e63a-40c5-aacc-8c6e86ed03c5 200 in 54ms (next.js: 22ms, application-code: 32ms)
+ GET /dashboard 200 in 209ms (next.js: 4ms, application-code: 205ms)
+ GET /scan/ffa8c664-67b6-4858-9c3f-3bb7bb462596 200 in 71ms (next.js: 26ms, application-code: 45ms)
+ GET /compare 200 in 52ms (next.js: 4ms, application-code: 48ms)
+ GET /glossary 200 in 62ms (next.js: 3ms, application-code: 59ms)

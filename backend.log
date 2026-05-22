@@ -1,0 +1,80 @@
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [188193]
+/app/backend/main.py:29: DeprecationWarning:
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+
+  @app.on_event("startup")
+INFO:     Started server process [210682]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:42672 - "POST /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42688 - "POST /scan?domain=google.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60322 - "POST /token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33068 - "POST /token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48664 - "POST /token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48664 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48670 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48670 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48670 - "OPTIONS /scan/db7e376e-ab3e-41a0-b139-f2cc3f72ecef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "OPTIONS /scan/db7e376e-ab3e-41a0-b139-f2cc3f72ecef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48664 - "GET /scan/db7e376e-ab3e-41a0-b139-f2cc3f72ecef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "GET /scan/db7e376e-ab3e-41a0-b139-f2cc3f72ecef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "GET /scan/db7e376e-ab3e-41a0-b139-f2cc3f72ecef HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59346 - "POST /token HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:37546 - "OPTIONS /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37552 - "POST /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37552 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37546 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37558 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37546 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47748 - "OPTIONS /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47750 - "POST /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47750 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47748 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47760 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47748 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47748 - "OPTIONS /scan?domain=openai.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47760 - "POST /scan?domain=openai.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47760 - "OPTIONS /scan/af6f533d-4275-48f3-af5f-1e0f9a7d9587 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53160 - "OPTIONS /scan/af6f533d-4275-48f3-af5f-1e0f9a7d9587 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53176 - "GET /scan/af6f533d-4275-48f3-af5f-1e0f9a7d9587 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53160 - "GET /scan/af6f533d-4275-48f3-af5f-1e0f9a7d9587 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53160 - "GET /scan/af6f533d-4275-48f3-af5f-1e0f9a7d9587 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53160 - "GET /scan/af6f533d-4275-48f3-af5f-1e0f9a7d9587 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39504 - "OPTIONS /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39514 - "POST /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39514 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39504 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39514 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39514 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "OPTIONS /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47582 - "POST /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47582 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "OPTIONS /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47590 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "OPTIONS /scan?domain=google.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47590 - "POST /scan?domain=google.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47590 - "OPTIONS /scan/5bfd9ac2-e63a-40c5-aacc-8c6e86ed03c5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "OPTIONS /scan/5bfd9ac2-e63a-40c5-aacc-8c6e86ed03c5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47582 - "GET /scan/5bfd9ac2-e63a-40c5-aacc-8c6e86ed03c5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "GET /scan/5bfd9ac2-e63a-40c5-aacc-8c6e86ed03c5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "GET /scan/5bfd9ac2-e63a-40c5-aacc-8c6e86ed03c5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47576 - "OPTIONS /scan?domain=microsoft.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47582 - "POST /scan?domain=microsoft.com HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47582 - "OPTIONS /scan/ffa8c664-67b6-4858-9c3f-3bb7bb462596 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47606 - "OPTIONS /scan/ffa8c664-67b6-4858-9c3f-3bb7bb462596 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47616 - "GET /scan/ffa8c664-67b6-4858-9c3f-3bb7bb462596 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47606 - "GET /scan/ffa8c664-67b6-4858-9c3f-3bb7bb462596 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47606 - "GET /scan/ffa8c664-67b6-4858-9c3f-3bb7bb462596 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47606 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47606 - "GET /scan/5bfd9ac2-e63a-40c5-aacc-8c6e86ed03c5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47616 - "GET /scan/ffa8c664-67b6-4858-9c3f-3bb7bb462596 HTTP/1.1" 200 OK
